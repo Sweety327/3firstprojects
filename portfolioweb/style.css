@@ -1,0 +1,82 @@
+/*body{
+    background-color:black;
+    color
+}*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-section{
+    height:100vh;
+    width: 100vw;
+    background-image: url(heroimage3.jpg);
+    color:rgba(255, 255, 255, 0.971);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+.nav-list li{
+   margin: 0 30px; 
+   color: darkslateblue;
+   font-size: large;
+   text-decoration: none;
+}
+.logo{
+    margin: 0 40px;
+}
+.logo span{
+    font-size: larger;
+    color:rgb(205, 96, 28);
+}
+.hero-section{
+    margin-top: 200px;
+   display: block;
+   align-items: center;
+   position:absolute;
+   margin-left: 100px;
+}
+.hero-section h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:coral;
+    font-size: 9vmin;
+}
+.abt-section{
+    height: 50vh;
+    width:100vw;
+    background-image: url(aboutsection.jpg);
+    background-size:cover;
+    text-align: center;
+    padding-top: 5%;
+}
+.abt-section pre{
+    font-size: larger;
+}
+
+.decor-link{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.textstyle{
+    height:50vh;
+    width:50vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10%;
+}
+.edu-section bold{
+    color:rgb(255, 0, 128);
+}
