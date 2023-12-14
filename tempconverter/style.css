@@ -1,0 +1,28 @@
+body{
+    width: auto;
+    height: auto;
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(to bottom,rgb(11, 152, 96),rgba(0, 179, 255, 0.986));
+}
+.main-box{
+    width: 50%;
+    height:50%;
+    border: 3px solid white;
+  /*  border-image:linear-gradient(to bottom,rgb(0, 242, 255),);*/
+    border-image-slice: 1;
+    display: grid;
+    place-items:center;
+    color: rgb(233, 222, 222);
+    font-size: large;
+}
+.text{
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.button{
+    background-color: black;color:white;
+    height:10%;
+    width:25%;
+}
